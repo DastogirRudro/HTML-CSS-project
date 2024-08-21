@@ -17,8 +17,9 @@
   font-weight: 100;
   font-style: italic;
 }
-.teamm h2{
-font-weight: 800;
+
+.teamm h2 {
+  font-weight: 800;
 }
 
 .meet-our-team {
@@ -51,11 +52,13 @@ font-weight: 800;
   font-weight: 400;
   line-height: 24px;
 }
+
 .team-front h4 {
   font-weight: 800;
   line-height: 120%;
   margin: 0px auto;
 }
+
 .team-front p {
   color: rgba(255, 255, 255, 0.5);
   font-size: 14px;
@@ -63,6 +66,7 @@ font-weight: 800;
   line-height: 24px;
   margin: 0px;
 }
+
 .team-chobi {
   position: relative;
   width: 325px;
@@ -71,6 +75,7 @@ font-weight: 800;
   margin: 0px;
 
 }
+
 .team-front {
   position: absolute;
   top: 74%;
@@ -83,30 +88,35 @@ font-weight: 800;
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.1);
 }
-@media screen and (max-width:576px){
+
+@media screen and (max-width:576px) {
   .main-team-our {
-    grid-template-columns: repeat(1,1fr);
-    
+    grid-template-columns: repeat(1, 1fr);
+
   }
 }
+
 /* New section started from header
 This will be our new section */
-.challenges-part{
+.challenges-part {
   max-width: 1240px;
   margin: 15px auto;
 }
-.owner{
+
+.owner {
   max-width: 650px;
   margin: 4px auto;
   text-align: center;
 }
-.owner p{
+
+.owner p {
   color: rgb(177, 163, 163);
   font-size: 18px;
   font-weight: 600;
 
 }
-.owner-tag{
+
+.owner-tag {
   max-width: 650px;
   margin: 0 auto;
   position: absolute;
@@ -114,13 +124,15 @@ This will be our new section */
   background-color: transparent;
   margin: 8px;
 }
-.owner-tag h2{
+
+.owner-tag h2 {
   color: rgba(240, 207, 207, 0.603);
   font-size: 34px;
   font-weight: 900;
   background-color: transparent;
 }
-.owner-tag button{
+
+.owner-tag button {
   background-color: #7ebdf8;
   padding: 16px 30px 16px 30px;
   border-radius: 18px;
@@ -129,71 +141,83 @@ This will be our new section */
   color: black;
   cursor: pointer;
 }
-.owner-picture img{
+
+.owner-picture img {
   width: 100%;
 }
-.owner-picture{
+
+.owner-picture {
   position: relative;
 }
-@media screen and (max-width:576px){
-  .challenges-part{
+
+@media screen and (max-width:576px) {
+  .challenges-part {
     max-width: 560px;
-  } 
-  .owner-tag button{
+  }
+
+  .owner-tag button {
     background-color: rgb(233, 241, 231);
     padding: 12px 30px 12px 30px;
     border-radius: 18px;
     color: rgb(0, 0, 0);
     font-size: 12px;
     font-weight: 800px;
-  } 
-  .owner-picture{
+  }
+
+  .owner-picture {
     max-height: 300px;
     max-width: 500px;
   }
 
-  .owner-picture img{
+  .owner-picture img {
     width: 100%;
     height: 100%;
-   }
-  
+  }
+
 }
+
 /* New Footer section start here to be tahe last */
-.footersection{
-    width: 100%;
-    background: rgba(255, 255, 255, 0.1);
+.footersection {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.1);
 }
-.footer-korbo{
+
+.footer-korbo {
   display: grid;
   background-color: transparent;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 10px;
   justify-content: space-evenly;
   max-width: 1050px;
   justify-content: center;
   margin: 0 auto;
-  border-bottom:  2px solid rgba(255, 255, 255, 0.137);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.137);
   margin-top: 22px;
 }
-.footer-content-1{
+
+.footer-content-1 {
   max-width: 440px;
   background-color: transparent;
   margin-bottom: 26px;
   margin-top: 2rem;
 }
-.footer-content-2{
+
+.footer-content-2 {
   background-color: transparent;
   margin-top: 2rem;
 }
-.footer-content-3{
+
+.footer-content-3 {
   background-color: transparent;
   margin-top: 2rem;
 }
-.footer-content-1{
-  margin-bottom: 26px;
+
+.footer-content-1 {
+  margin-bottom: 2rem;
   background-color: transparent;
 }
-.footer-content-1 h1{
+
+.footer-content-1 h1 {
   color: rgb(230, 83, 60);
   font-size: 56px;
   font-weight: 800;
@@ -201,49 +225,75 @@ This will be our new section */
   margin-bottom: 2px;
   background-color: transparent;
 }
-.footer-content-1 p{
+
+.footer-content-1 p {
   color: rgba(255, 255, 255, 0.5);
-font-size: 14px;
-font-weight: 400;
-line-height: 24px;
-background-color: transparent;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  background-color: transparent;
 }
-.footer-content-2 h5{
-font-size: 28px;
-font-weight: 700;
-line-height: 120%;
-background-color: transparent;
-margin-bottom: 12px;
-}
-.footer-content-3 h5{
+
+.footer-content-2 h5 {
   font-size: 28px;
-font-weight: 700;
-line-height: 120%;
-margin-bottom: 12px;
-background-color: transparent;
+  font-weight: 700;
+  line-height: 120%;
+  background-color: transparent;
+  margin-bottom: 12px;
 }
+
+.footer-content-3 h5 {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 120%;
+  margin-bottom: 12px;
+  background-color: transparent;
+}
+
 .alllist {
-  border: 1px solid red;
   max-width: 220px;
   text-decoration: none;
   list-style-type: none;
   background-color: transparent;
   text-align: left;
 }
-.alllist li{
+
+.alllist li {
   text-align: left;
   background-color: transparent;
   margin-bottom: 5px;
 }
-.footer-para{
+
+@media screen and (max-width:576px) {
+  .footer-korbo {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 2px;
+  }
+
+  .footer-content-2 {
+    margin-top: 4px;
+  }
+
+  .footer-content-3 {
+    margin-top: 4px;
+  }
+
+  .footer-content-1 {
+    margin-bottom: 4px;
+    border: 1px solid red;
+    max-width: 500px;
+  }
+}
+
+.footer-para {
   background-color: transparent;
   max-width: 318px;
   height: 60px;
   margin: 16px auto;
-
   text-align: center;
 }
-.footer-para p{
+.footer-para p {
   background-color: transparent;
-  
+
 }

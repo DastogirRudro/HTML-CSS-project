@@ -99,7 +99,7 @@
 /* New section started from header
 This will be our new section */
 .challenges-part {
-  max-width: 1240px;
+  max-width: 1220px;
   margin: 15px auto;
 }
 
@@ -126,9 +126,9 @@ This will be our new section */
 }
 
 .owner-tag h2 {
-  color: rgba(240, 207, 207, 0.603);
-  font-size: 34px;
-  font-weight: 900;
+  color: rgba(233, 230, 230, 0.829);
+  font-size: 42px;
+  font-weight: 500;
   background-color: transparent;
 }
 
@@ -141,9 +141,9 @@ This will be our new section */
   color: black;
   cursor: pointer;
 }
-
 .owner-picture img {
   width: 100%;
+  max-height: 650px;
 }
 
 .owner-picture {
@@ -170,7 +170,7 @@ This will be our new section */
   }
 
   .owner-picture img {
-    width: 100%;
+    max-width: 562px;
     height: 100%;
   }
 
@@ -281,7 +281,6 @@ This will be our new section */
 
   .footer-content-1 {
     margin-bottom: 4px;
-    border: 1px solid red;
     max-width: 500px;
   }
 }
